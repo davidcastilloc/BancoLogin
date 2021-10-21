@@ -1,6 +1,7 @@
 package StepDefinition;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -9,7 +10,6 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-
 
 public class StepsTest {
 	private WebDriver driver;
@@ -39,7 +39,7 @@ public class StepsTest {
 	public void entonces_se_le_da_la_bienvenida_al_sitio(String string) {
 		// Write code here that turns the phrase above into concrete actions
 		;
-		
+
 		assertEquals(string, driver.getTitle());
 	}
 
@@ -68,5 +68,9 @@ public class StepsTest {
 		driver.findElement(By.cssSelector(".button")).click();
 	}
 
-
+	@Then("Cierra el navegador")
+	public void cierra_el_navegador() {
+		// Write code here that turns the phrase above into concrete actions
+		driver.quit();
+	}
 }
