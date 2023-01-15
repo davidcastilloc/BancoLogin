@@ -51,6 +51,8 @@
 								</tbody>
 							</table>
 						</div>
+						
+						<div class="container"> <a class="button" > Hacer transferencia</a></div>
 					</div>
 				</div>
 			</div>

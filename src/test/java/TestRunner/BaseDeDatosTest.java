@@ -16,6 +16,7 @@ public class BaseDeDatosTest {
 	final String DB_URL = "jdbc:mysql://127.0.0.1/Banco_Platinum";
 	final String USER = "root";
 	final String PASS = "rootpassword";
+	
     @Before
     public void before() throws SQLException {
         connection = DriverManager.getConnection(DB_URL, USER, PASS);
