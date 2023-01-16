@@ -7,17 +7,16 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>dashboard</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
-    />
+	<link rel="stylesheet" href="https://unpkg.com/bulmaswatch/default/bulmaswatch.min.css">
+	<link rel="stylesheet" href="https://jenil.github.io/bulmaswatch/cerulean/bulmaswatch.min.css">	
+  
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
     />
 </head>
 <body>
-	<section class="hero is-link is-fullheight">
+	<section class="hero is-primary is-fullheight">
 		<div class="hero-body">
 			<div class="container has-text-centered">
 				<div class="columns is-multiline is-centered">

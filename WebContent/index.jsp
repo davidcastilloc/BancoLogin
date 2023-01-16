@@ -51,12 +51,7 @@ prefix="c"%>
                     </span>
                   </div>
                 </div>
-                <div class="field">
-                  <label for="" class="checkbox">
-                    <input type="checkbox" />
-                    Recordarme
-                  </label>
-                </div>
+
                 <div class="field">
                   <button type="submit" class="button is-success">
                     Iniciar Sesión
