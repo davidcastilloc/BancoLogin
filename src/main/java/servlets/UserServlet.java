@@ -35,7 +35,7 @@ public class UserServlet extends HttpServlet {
 			Persona persona = Autenticar.iniciarSesion(nombreUsuario, password);
 			System.out.println(persona);
 			if (persona.getRut() == null) {
-				request.setAttribute("mensaje", "Usuario o Password invalidos!");
+				request.setAttribute("mensaje", "Credenciales invalidas!");
 				request.getRequestDispatcher("index.jsp").forward(request, response);
 			} else {
 				HttpSession sesion = request.getSession();

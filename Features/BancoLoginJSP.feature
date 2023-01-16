@@ -9,7 +9,7 @@ Feature: Realizacion de casos ingresando nombre de usuario y contraseña
   Scenario: Ingresar nombre de usuario y contraseña incorrecto.
     Given Abrir Chrome
     When el usuario ingresa ingresa Username "userincorrecto" y Password "passwordincorrecto" incorrectos
-    Then Entonces debería mostrar error de "Usuario o Password invalidos!"
+    Then Entonces debería mostrar error de "Credenciales invalidas!"
 		And Cierra el navegador
 		
   Scenario: Ingresar valores vacíos.
